@@ -6,7 +6,7 @@
 #include "Game.hpp"
 
 int main() {
-    Game game(1000, 800, "My window");
+    Game game(800, 800, "My window");
     game.execute();
     return 0;
 }

@@ -9,21 +9,23 @@
 #include <SFML/Graphics.hpp>
 #include <memory>
 
+#include "TileMap.hpp"
 #include "GameObjectManager.hpp"
-#include "TileMap.h"
 
 class Game {
-public:
-    inline static sf::RenderWindow gameWindow;
-    inline static TileMap tileMap;
-private:
-    sf::Event m_event{};
+    sf::Event m_event;
     GameObjectManager m_gameObjectManager;
+    std::shared_ptr<sf::RenderWindow> m_gameWindow;
+    TileMap m_tileMap;
 public:
     Game(int width, int height, const std::string &name);
+
     void execute();
+
     void manageEvents() const;
+
     void update();
+
     void render();
 };
 

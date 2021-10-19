@@ -11,12 +11,19 @@
 class BetterSprite : public sf::Sprite {
 public:
     BetterSprite(const unsigned int &width, const unsigned int &height, const sf::Color &color);
-    BetterSprite(const sf::Texture &text);
+
+    explicit BetterSprite(const sf::Texture &texture);
+
     float getRight() const;
+
     float getLeft() const;
+
     float getTop() const;
+
     float getBot() const;
+
     unsigned int getWidth() const;
+
     unsigned int getHeight() const;
 };
 

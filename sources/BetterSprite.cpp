@@ -12,6 +12,10 @@ BetterSprite::BetterSprite(const unsigned int &width, const unsigned int &height
     setColor(color);
 }
 
+BetterSprite::BetterSprite(const sf::Texture &texture) {
+    this->setTexture(texture);
+}
+
 float BetterSprite::getRight() const {
     return getPosition().x + float(getTextureRect().width);
 }
@@ -35,5 +39,3 @@ unsigned int BetterSprite::getWidth() const {
 unsigned int BetterSprite::getHeight() const {
     return getTextureRect().height;
 }
-
-BetterSprite::BetterSprite(const sf::Texture &text) : Sprite(text) {}

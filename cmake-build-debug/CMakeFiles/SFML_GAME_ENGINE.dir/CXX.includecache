@@ -15,10 +15,10 @@ SFML/Graphics.hpp
 -
 memory
 -
+TileMap.hpp
+../headers/TileMap.hpp
 GameObjectManager.hpp
 ../headers/GameObjectManager.hpp
-TileMap.h
-../headers/TileMap.h
 
 ../headers/GameObject.hpp
 vector
@@ -31,21 +31,19 @@ BetterSprite.hpp
 ../headers/GameObjectManager.hpp
 memory
 -
-GameObject.hpp
-../headers/GameObject.hpp
-
-../headers/Monster.hpp
-memory
+vector
 -
 GameObject.hpp
 ../headers/GameObject.hpp
 
-../headers/Tile.h
+../headers/Tile.hpp
 BetterSprite.hpp
 ../headers/BetterSprite.hpp
 
-../headers/TileMap.h
-Tile.h
+../headers/TileMap.hpp
+vector
+-
+Tile.hpp
 -
 
 /Users/martinmoreiradj/Documents/GitHub/SFML_GAME_ENGINE/main.cpp
@@ -57,28 +55,18 @@ memory
 -
 Game.hpp
 /Users/martinmoreiradj/Documents/GitHub/SFML_GAME_ENGINE/sources/Game.hpp
-Monster.hpp
-/Users/martinmoreiradj/Documents/GitHub/SFML_GAME_ENGINE/sources/Monster.hpp
-
-/Users/martinmoreiradj/Documents/GitHub/SFML_GAME_ENGINE/sources/GameObject.cpp
-memory
--
-Game.hpp
-/Users/martinmoreiradj/Documents/GitHub/SFML_GAME_ENGINE/sources/Game.hpp
-GameObject.hpp
-/Users/martinmoreiradj/Documents/GitHub/SFML_GAME_ENGINE/sources/GameObject.hpp
 
 /Users/martinmoreiradj/Documents/GitHub/SFML_GAME_ENGINE/sources/Tile.cpp
-Tile.h
-/Users/martinmoreiradj/Documents/GitHub/SFML_GAME_ENGINE/sources/Tile.h
+Tile.hpp
+/Users/martinmoreiradj/Documents/GitHub/SFML_GAME_ENGINE/sources/Tile.hpp
 Game.hpp
 /Users/martinmoreiradj/Documents/GitHub/SFML_GAME_ENGINE/sources/Game.hpp
 utility
 -
 
 /Users/martinmoreiradj/Documents/GitHub/SFML_GAME_ENGINE/sources/TileMap.cpp
-TileMap.h
-/Users/martinmoreiradj/Documents/GitHub/SFML_GAME_ENGINE/sources/TileMap.h
+TileMap.hpp
+/Users/martinmoreiradj/Documents/GitHub/SFML_GAME_ENGINE/sources/TileMap.hpp
 
 /opt/homebrew/include/SFML/Config.hpp
 TargetConditionals.h

@@ -1,29 +1,29 @@
 #include <memory>
 
 #include "Game.hpp"
-#include "Monster.hpp"
 
 Game::Game(int width, int height, const std::string &name) {
-    Game::gameWindow.create(sf::VideoMode(width, height), name);
-    Game::gameWindow.setFramerateLimit(30);
-    Game::gameWindow.setVerticalSyncEnabled(true);
-    Game::gameWindow.setKeyRepeatEnabled(false);
+    m_gameWindow = std::make_shared<sf::RenderWindow>(sf::VideoMode(width, height), name);
+    m_gameWindow->setFramerateLimit(30);
+    m_gameWindow->setKeyRepeatEnabled(false);
+
     std::vector<std::vector<int>> map = {
-            {0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
-            {0, 1, 1, 1, 1, 1, 1, 1, 1, 0},
-            {0, 1, 1, 1, 1, 1, 1, 1, 1, 0},
-            {0, 1, 1, 1, 1, 1, 1, 1, 1, 0},
-            {0, 1, 1, 1, 1, 1, 1, 1, 1, 0},
-            {0, 1, 1, 1, 1, 1, 1, 1, 1, 0},
-            {0, 1, 1, 1, 1, 1, 1, 1, 1, 0},
-            {0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
+            {0, 0, 0, 0, 0, 0, 0, 0},
+            {0, 1, 1, 1, 1, 1, 1, 0},
+            {0, 1, 1, 1, 1, 1, 1, 0},
+            {0, 1, 1, 1, 1, 1, 1, 0},
+            {0, 1, 1, 1, 1, 1, 1, 0},
+            {0, 1, 1, 1, 1, 1, 1, 0},
+            {0, 1, 1, 1, 1, 1, 1, 0},
+            {0, 0, 0, 0, 0, 0, 0, 0},
     };
-    Game::tileMap = TileMap(100, map);
+
+    m_tileMap = TileMap(100, map, m_gameWindow);
 }
 
 void Game::execute() {
-    while (Game::gameWindow.isOpen()) {
-        while (Game::gameWindow.pollEvent(m_event)) {
+    while (m_gameWindow->isOpen()) {
+        while (m_gameWindow->pollEvent(m_event)) {
             manageEvents();
         }
         update();
@@ -33,17 +33,18 @@ void Game::execute() {
 
 void Game::manageEvents() const {
     if (m_event.type == sf::Event::Closed) {
-        Game::gameWindow.close();
+        m_gameWindow->close();
     }
 }
 
 void Game::update() {
-    m_gameObjectManager.update();
+
 }
 
 void Game::render() {
-    Game::gameWindow.clear(sf::Color::White);
-    Game::gameWindow.display();
-    Game::tileMap.render();
-    m_gameObjectManager.render();
+    m_gameWindow->clear(sf::Color::White);
+
+    m_tileMap.render();
+
+    m_gameWindow->display();
 }

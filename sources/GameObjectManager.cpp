@@ -13,6 +13,8 @@ void GameObjectManager::update() {
     for (auto &gameObject : m_gameObjects) {
         if (gameObject->isActive()) {
             gameObject->update(m_gameObjects);
+        } else {
+            m_gameObjects.erase(std::find(m_gameObjects.begin(), m_gameObjects.end(), gameObject));
         }
     }
 }

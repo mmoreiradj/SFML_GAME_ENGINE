@@ -100,13 +100,10 @@
 		<Unit filename="/Users/martinmoreiradj/Documents/GitHub/SFML_GAME_ENGINE/headers/GameObjectManager.hpp">
 			<Option target="SFML_GAME_ENGINE"/>
 		</Unit>
-		<Unit filename="/Users/martinmoreiradj/Documents/GitHub/SFML_GAME_ENGINE/headers/Monster.hpp">
+		<Unit filename="/Users/martinmoreiradj/Documents/GitHub/SFML_GAME_ENGINE/headers/Tile.hpp">
 			<Option target="SFML_GAME_ENGINE"/>
 		</Unit>
-		<Unit filename="/Users/martinmoreiradj/Documents/GitHub/SFML_GAME_ENGINE/headers/Tile.h">
-			<Option target="SFML_GAME_ENGINE"/>
-		</Unit>
-		<Unit filename="/Users/martinmoreiradj/Documents/GitHub/SFML_GAME_ENGINE/headers/TileMap.h">
+		<Unit filename="/Users/martinmoreiradj/Documents/GitHub/SFML_GAME_ENGINE/headers/TileMap.hpp">
 			<Option target="SFML_GAME_ENGINE"/>
 		</Unit>
 		<Unit filename="/Users/martinmoreiradj/Documents/GitHub/SFML_GAME_ENGINE/main.cpp">
@@ -122,9 +119,6 @@
 			<Option target="SFML_GAME_ENGINE"/>
 		</Unit>
 		<Unit filename="/Users/martinmoreiradj/Documents/GitHub/SFML_GAME_ENGINE/sources/GameObjectManager.cpp">
-			<Option target="SFML_GAME_ENGINE"/>
-		</Unit>
-		<Unit filename="/Users/martinmoreiradj/Documents/GitHub/SFML_GAME_ENGINE/sources/Monster.cpp">
 			<Option target="SFML_GAME_ENGINE"/>
 		</Unit>
 		<Unit filename="/Users/martinmoreiradj/Documents/GitHub/SFML_GAME_ENGINE/sources/Tile.cpp">

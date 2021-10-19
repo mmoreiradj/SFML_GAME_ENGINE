@@ -249,30 +249,6 @@ sources/GameObjectManager.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/SFML_GAME_ENGINE.dir/build.make CMakeFiles/SFML_GAME_ENGINE.dir/sources/GameObjectManager.cpp.s
 .PHONY : sources/GameObjectManager.cpp.s
 
-sources/Monster.o: sources/Monster.cpp.o
-.PHONY : sources/Monster.o
-
-# target to build an object file
-sources/Monster.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/SFML_GAME_ENGINE.dir/build.make CMakeFiles/SFML_GAME_ENGINE.dir/sources/Monster.cpp.o
-.PHONY : sources/Monster.cpp.o
-
-sources/Monster.i: sources/Monster.cpp.i
-.PHONY : sources/Monster.i
-
-# target to preprocess a source file
-sources/Monster.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/SFML_GAME_ENGINE.dir/build.make CMakeFiles/SFML_GAME_ENGINE.dir/sources/Monster.cpp.i
-.PHONY : sources/Monster.cpp.i
-
-sources/Monster.s: sources/Monster.cpp.s
-.PHONY : sources/Monster.s
-
-# target to generate assembly for a file
-sources/Monster.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/SFML_GAME_ENGINE.dir/build.make CMakeFiles/SFML_GAME_ENGINE.dir/sources/Monster.cpp.s
-.PHONY : sources/Monster.cpp.s
-
 sources/Tile.o: sources/Tile.cpp.o
 .PHONY : sources/Tile.o
 
@@ -345,9 +321,6 @@ help:
 	@echo "... sources/GameObjectManager.o"
 	@echo "... sources/GameObjectManager.i"
 	@echo "... sources/GameObjectManager.s"
-	@echo "... sources/Monster.o"
-	@echo "... sources/Monster.i"
-	@echo "... sources/Monster.s"
 	@echo "... sources/Tile.o"
 	@echo "... sources/Tile.i"
 	@echo "... sources/Tile.s"

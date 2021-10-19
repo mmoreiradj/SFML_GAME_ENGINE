@@ -7,6 +7,7 @@
 #define GAME_ENGINE_GAMEOBJECTMANAGER_HPP
 
 #include <memory>
+#include <vector>
 
 #include "GameObject.hpp"
 
@@ -15,7 +16,9 @@ private:
     std::vector<std::shared_ptr<GameObject>> m_gameObjects;
 public:
     void addObject(const std::shared_ptr<GameObject> &gameObject);
+
     void update();
+
     void render() const;
 };
 

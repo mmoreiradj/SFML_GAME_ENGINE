@@ -131,22 +131,9 @@ CMakeFiles/SFML_GAME_ENGINE.dir/sources/GameObjectManager.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SFML_GAME_ENGINE.dir/sources/GameObjectManager.cpp.s"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/martinmoreiradj/Documents/GitHub/SFML_GAME_ENGINE/sources/GameObjectManager.cpp -o CMakeFiles/SFML_GAME_ENGINE.dir/sources/GameObjectManager.cpp.s
 
-CMakeFiles/SFML_GAME_ENGINE.dir/sources/Monster.cpp.o: CMakeFiles/SFML_GAME_ENGINE.dir/flags.make
-CMakeFiles/SFML_GAME_ENGINE.dir/sources/Monster.cpp.o: ../sources/Monster.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/martinmoreiradj/Documents/GitHub/SFML_GAME_ENGINE/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/SFML_GAME_ENGINE.dir/sources/Monster.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SFML_GAME_ENGINE.dir/sources/Monster.cpp.o -c /Users/martinmoreiradj/Documents/GitHub/SFML_GAME_ENGINE/sources/Monster.cpp
-
-CMakeFiles/SFML_GAME_ENGINE.dir/sources/Monster.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SFML_GAME_ENGINE.dir/sources/Monster.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/martinmoreiradj/Documents/GitHub/SFML_GAME_ENGINE/sources/Monster.cpp > CMakeFiles/SFML_GAME_ENGINE.dir/sources/Monster.cpp.i
-
-CMakeFiles/SFML_GAME_ENGINE.dir/sources/Monster.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SFML_GAME_ENGINE.dir/sources/Monster.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/martinmoreiradj/Documents/GitHub/SFML_GAME_ENGINE/sources/Monster.cpp -o CMakeFiles/SFML_GAME_ENGINE.dir/sources/Monster.cpp.s
-
 CMakeFiles/SFML_GAME_ENGINE.dir/sources/Tile.cpp.o: CMakeFiles/SFML_GAME_ENGINE.dir/flags.make
 CMakeFiles/SFML_GAME_ENGINE.dir/sources/Tile.cpp.o: ../sources/Tile.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/martinmoreiradj/Documents/GitHub/SFML_GAME_ENGINE/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/SFML_GAME_ENGINE.dir/sources/Tile.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/martinmoreiradj/Documents/GitHub/SFML_GAME_ENGINE/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/SFML_GAME_ENGINE.dir/sources/Tile.cpp.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SFML_GAME_ENGINE.dir/sources/Tile.cpp.o -c /Users/martinmoreiradj/Documents/GitHub/SFML_GAME_ENGINE/sources/Tile.cpp
 
 CMakeFiles/SFML_GAME_ENGINE.dir/sources/Tile.cpp.i: cmake_force
@@ -159,7 +146,7 @@ CMakeFiles/SFML_GAME_ENGINE.dir/sources/Tile.cpp.s: cmake_force
 
 CMakeFiles/SFML_GAME_ENGINE.dir/sources/TileMap.cpp.o: CMakeFiles/SFML_GAME_ENGINE.dir/flags.make
 CMakeFiles/SFML_GAME_ENGINE.dir/sources/TileMap.cpp.o: ../sources/TileMap.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/martinmoreiradj/Documents/GitHub/SFML_GAME_ENGINE/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/SFML_GAME_ENGINE.dir/sources/TileMap.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/martinmoreiradj/Documents/GitHub/SFML_GAME_ENGINE/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/SFML_GAME_ENGINE.dir/sources/TileMap.cpp.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SFML_GAME_ENGINE.dir/sources/TileMap.cpp.o -c /Users/martinmoreiradj/Documents/GitHub/SFML_GAME_ENGINE/sources/TileMap.cpp
 
 CMakeFiles/SFML_GAME_ENGINE.dir/sources/TileMap.cpp.i: cmake_force
@@ -177,7 +164,6 @@ SFML_GAME_ENGINE_OBJECTS = \
 "CMakeFiles/SFML_GAME_ENGINE.dir/sources/BetterSprite.cpp.o" \
 "CMakeFiles/SFML_GAME_ENGINE.dir/sources/GameObject.cpp.o" \
 "CMakeFiles/SFML_GAME_ENGINE.dir/sources/GameObjectManager.cpp.o" \
-"CMakeFiles/SFML_GAME_ENGINE.dir/sources/Monster.cpp.o" \
 "CMakeFiles/SFML_GAME_ENGINE.dir/sources/Tile.cpp.o" \
 "CMakeFiles/SFML_GAME_ENGINE.dir/sources/TileMap.cpp.o"
 
@@ -189,7 +175,6 @@ SFML_GAME_ENGINE: CMakeFiles/SFML_GAME_ENGINE.dir/sources/Game.cpp.o
 SFML_GAME_ENGINE: CMakeFiles/SFML_GAME_ENGINE.dir/sources/BetterSprite.cpp.o
 SFML_GAME_ENGINE: CMakeFiles/SFML_GAME_ENGINE.dir/sources/GameObject.cpp.o
 SFML_GAME_ENGINE: CMakeFiles/SFML_GAME_ENGINE.dir/sources/GameObjectManager.cpp.o
-SFML_GAME_ENGINE: CMakeFiles/SFML_GAME_ENGINE.dir/sources/Monster.cpp.o
 SFML_GAME_ENGINE: CMakeFiles/SFML_GAME_ENGINE.dir/sources/Tile.cpp.o
 SFML_GAME_ENGINE: CMakeFiles/SFML_GAME_ENGINE.dir/sources/TileMap.cpp.o
 SFML_GAME_ENGINE: CMakeFiles/SFML_GAME_ENGINE.dir/build.make
@@ -197,7 +182,7 @@ SFML_GAME_ENGINE: /opt/homebrew/lib/libsfml-graphics.2.5.1.dylib
 SFML_GAME_ENGINE: /opt/homebrew/lib/libsfml-window.2.5.1.dylib
 SFML_GAME_ENGINE: /opt/homebrew/lib/libsfml-system.2.5.1.dylib
 SFML_GAME_ENGINE: CMakeFiles/SFML_GAME_ENGINE.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/martinmoreiradj/Documents/GitHub/SFML_GAME_ENGINE/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable SFML_GAME_ENGINE"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/martinmoreiradj/Documents/GitHub/SFML_GAME_ENGINE/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable SFML_GAME_ENGINE"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/SFML_GAME_ENGINE.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

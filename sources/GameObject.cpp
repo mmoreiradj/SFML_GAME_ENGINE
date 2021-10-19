@@ -5,16 +5,15 @@
 
 #include <memory>
 
-#include "Game.hpp"
 #include "GameObject.hpp"
 
-GameObject::GameObject(const int &sizeX, const int &sizeY, const sf::Color &color)
-        : m_sprite(BetterSprite(sizeY, sizeY, color)), m_id(++GameObject::m_counter), m_active(true) {
-    GameObject::m_counter = 0;
+GameObject::GameObject(const int &sizeX, const int &sizeY, const std::shared_ptr<sf::RenderWindow> &gameWindow, const sf::Color &color)
+        : m_sprite(BetterSprite(sizeY, sizeY, color)), m_gameWindow(gameWindow), m_id(++GameObject::m_static_id), m_active(true) {
+    GameObject::m_static_id = 0;
 }
 
 void GameObject::render() const {
-    Game::gameWindow.draw(m_sprite);
+    m_gameWindow->draw(m_sprite);
 }
 
 bool GameObject::isActive() const {
@@ -38,4 +37,12 @@ unsigned int GameObject::getId() const {
 
 BetterSprite GameObject::getSprite() const {
     return m_sprite;
+}
+
+const std::vector<std::shared_ptr<sf::Texture>> &GameObject::getMTextures() const {
+    return m_textures;
+}
+
+void GameObject::setMTextures(const std::vector<std::shared_ptr<sf::Texture>> &mTextures) {
+    m_textures = mTextures;
 }

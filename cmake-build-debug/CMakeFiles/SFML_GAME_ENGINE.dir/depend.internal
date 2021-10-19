@@ -6,8 +6,8 @@ CMakeFiles/SFML_GAME_ENGINE.dir/main.cpp.o
  ../headers/Game.hpp
  ../headers/GameObject.hpp
  ../headers/GameObjectManager.hpp
- ../headers/Tile.h
- ../headers/TileMap.h
+ ../headers/Tile.hpp
+ ../headers/TileMap.hpp
  /Users/martinmoreiradj/Documents/GitHub/SFML_GAME_ENGINE/main.cpp
  /opt/homebrew/include/SFML/Config.hpp
  /opt/homebrew/include/SFML/Graphics.hpp
@@ -165,9 +165,8 @@ CMakeFiles/SFML_GAME_ENGINE.dir/sources/Game.cpp.o
  ../headers/Game.hpp
  ../headers/GameObject.hpp
  ../headers/GameObjectManager.hpp
- ../headers/Monster.hpp
- ../headers/Tile.h
- ../headers/TileMap.h
+ ../headers/Tile.hpp
+ ../headers/TileMap.hpp
  /Users/martinmoreiradj/Documents/GitHub/SFML_GAME_ENGINE/sources/Game.cpp
  /opt/homebrew/include/SFML/Config.hpp
  /opt/homebrew/include/SFML/Graphics.hpp
@@ -245,11 +244,7 @@ CMakeFiles/SFML_GAME_ENGINE.dir/sources/Game.cpp.o
  /opt/homebrew/include/SFML/Window/WindowStyle.hpp
 CMakeFiles/SFML_GAME_ENGINE.dir/sources/GameObject.cpp.o
  ../headers/BetterSprite.hpp
- ../headers/Game.hpp
  ../headers/GameObject.hpp
- ../headers/GameObjectManager.hpp
- ../headers/Tile.h
- ../headers/TileMap.h
  /Users/martinmoreiradj/Documents/GitHub/SFML_GAME_ENGINE/sources/GameObject.cpp
  /opt/homebrew/include/SFML/Config.hpp
  /opt/homebrew/include/SFML/Graphics.hpp
@@ -404,92 +399,13 @@ CMakeFiles/SFML_GAME_ENGINE.dir/sources/GameObjectManager.cpp.o
  /opt/homebrew/include/SFML/Window/Window.hpp
  /opt/homebrew/include/SFML/Window/WindowHandle.hpp
  /opt/homebrew/include/SFML/Window/WindowStyle.hpp
-CMakeFiles/SFML_GAME_ENGINE.dir/sources/Monster.cpp.o
- ../headers/BetterSprite.hpp
- ../headers/GameObject.hpp
- ../headers/Monster.hpp
- /Users/martinmoreiradj/Documents/GitHub/SFML_GAME_ENGINE/sources/Monster.cpp
- /opt/homebrew/include/SFML/Config.hpp
- /opt/homebrew/include/SFML/Graphics.hpp
- /opt/homebrew/include/SFML/Graphics/BlendMode.hpp
- /opt/homebrew/include/SFML/Graphics/CircleShape.hpp
- /opt/homebrew/include/SFML/Graphics/Color.hpp
- /opt/homebrew/include/SFML/Graphics/ConvexShape.hpp
- /opt/homebrew/include/SFML/Graphics/Drawable.hpp
- /opt/homebrew/include/SFML/Graphics/Export.hpp
- /opt/homebrew/include/SFML/Graphics/Font.hpp
- /opt/homebrew/include/SFML/Graphics/Glsl.hpp
- /opt/homebrew/include/SFML/Graphics/Glsl.inl
- /opt/homebrew/include/SFML/Graphics/Glyph.hpp
- /opt/homebrew/include/SFML/Graphics/Image.hpp
- /opt/homebrew/include/SFML/Graphics/PrimitiveType.hpp
- /opt/homebrew/include/SFML/Graphics/Rect.hpp
- /opt/homebrew/include/SFML/Graphics/Rect.inl
- /opt/homebrew/include/SFML/Graphics/RectangleShape.hpp
- /opt/homebrew/include/SFML/Graphics/RenderStates.hpp
- /opt/homebrew/include/SFML/Graphics/RenderTarget.hpp
- /opt/homebrew/include/SFML/Graphics/RenderTexture.hpp
- /opt/homebrew/include/SFML/Graphics/RenderWindow.hpp
- /opt/homebrew/include/SFML/Graphics/Shader.hpp
- /opt/homebrew/include/SFML/Graphics/Shape.hpp
- /opt/homebrew/include/SFML/Graphics/Sprite.hpp
- /opt/homebrew/include/SFML/Graphics/Text.hpp
- /opt/homebrew/include/SFML/Graphics/Texture.hpp
- /opt/homebrew/include/SFML/Graphics/Transform.hpp
- /opt/homebrew/include/SFML/Graphics/Transformable.hpp
- /opt/homebrew/include/SFML/Graphics/Vertex.hpp
- /opt/homebrew/include/SFML/Graphics/VertexArray.hpp
- /opt/homebrew/include/SFML/Graphics/VertexBuffer.hpp
- /opt/homebrew/include/SFML/Graphics/View.hpp
- /opt/homebrew/include/SFML/System.hpp
- /opt/homebrew/include/SFML/System/Clock.hpp
- /opt/homebrew/include/SFML/System/Err.hpp
- /opt/homebrew/include/SFML/System/Export.hpp
- /opt/homebrew/include/SFML/System/FileInputStream.hpp
- /opt/homebrew/include/SFML/System/InputStream.hpp
- /opt/homebrew/include/SFML/System/Lock.hpp
- /opt/homebrew/include/SFML/System/MemoryInputStream.hpp
- /opt/homebrew/include/SFML/System/Mutex.hpp
- /opt/homebrew/include/SFML/System/NonCopyable.hpp
- /opt/homebrew/include/SFML/System/Sleep.hpp
- /opt/homebrew/include/SFML/System/String.hpp
- /opt/homebrew/include/SFML/System/String.inl
- /opt/homebrew/include/SFML/System/Thread.hpp
- /opt/homebrew/include/SFML/System/Thread.inl
- /opt/homebrew/include/SFML/System/ThreadLocal.hpp
- /opt/homebrew/include/SFML/System/ThreadLocalPtr.hpp
- /opt/homebrew/include/SFML/System/ThreadLocalPtr.inl
- /opt/homebrew/include/SFML/System/Time.hpp
- /opt/homebrew/include/SFML/System/Utf.hpp
- /opt/homebrew/include/SFML/System/Utf.inl
- /opt/homebrew/include/SFML/System/Vector2.hpp
- /opt/homebrew/include/SFML/System/Vector2.inl
- /opt/homebrew/include/SFML/System/Vector3.hpp
- /opt/homebrew/include/SFML/System/Vector3.inl
- /opt/homebrew/include/SFML/Window.hpp
- /opt/homebrew/include/SFML/Window/Clipboard.hpp
- /opt/homebrew/include/SFML/Window/Context.hpp
- /opt/homebrew/include/SFML/Window/ContextSettings.hpp
- /opt/homebrew/include/SFML/Window/Cursor.hpp
- /opt/homebrew/include/SFML/Window/Event.hpp
- /opt/homebrew/include/SFML/Window/Export.hpp
- /opt/homebrew/include/SFML/Window/GlResource.hpp
- /opt/homebrew/include/SFML/Window/Joystick.hpp
- /opt/homebrew/include/SFML/Window/Keyboard.hpp
- /opt/homebrew/include/SFML/Window/Mouse.hpp
- /opt/homebrew/include/SFML/Window/Sensor.hpp
- /opt/homebrew/include/SFML/Window/Touch.hpp
- /opt/homebrew/include/SFML/Window/VideoMode.hpp
- /opt/homebrew/include/SFML/Window/Window.hpp
- /opt/homebrew/include/SFML/Window/WindowHandle.hpp
- /opt/homebrew/include/SFML/Window/WindowStyle.hpp
 CMakeFiles/SFML_GAME_ENGINE.dir/sources/Tile.cpp.o
  ../headers/BetterSprite.hpp
  ../headers/Game.hpp
  ../headers/GameObject.hpp
  ../headers/GameObjectManager.hpp
- ../headers/Tile.h
- ../headers/TileMap.h
+ ../headers/Tile.hpp
+ ../headers/TileMap.hpp
  /Users/martinmoreiradj/Documents/GitHub/SFML_GAME_ENGINE/sources/Tile.cpp
  /opt/homebrew/include/SFML/Config.hpp
  /opt/homebrew/include/SFML/Graphics.hpp
@@ -567,8 +483,8 @@ CMakeFiles/SFML_GAME_ENGINE.dir/sources/Tile.cpp.o
  /opt/homebrew/include/SFML/Window/WindowStyle.hpp
 CMakeFiles/SFML_GAME_ENGINE.dir/sources/TileMap.cpp.o
  ../headers/BetterSprite.hpp
- ../headers/Tile.h
- ../headers/TileMap.h
+ ../headers/Tile.hpp
+ ../headers/TileMap.hpp
  /Users/martinmoreiradj/Documents/GitHub/SFML_GAME_ENGINE/sources/TileMap.cpp
  /opt/homebrew/include/SFML/Config.hpp
  /opt/homebrew/include/SFML/Graphics.hpp
