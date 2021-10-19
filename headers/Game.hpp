@@ -10,10 +10,12 @@
 #include <memory>
 
 #include "GameObjectManager.hpp"
+#include "TileMap.h"
 
 class Game {
 public:
     inline static sf::RenderWindow gameWindow;
+    inline static TileMap tileMap;
 private:
     sf::Event m_event{};
     GameObjectManager m_gameObjectManager;

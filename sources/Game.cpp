@@ -8,7 +8,17 @@ Game::Game(int width, int height, const std::string &name) {
     Game::gameWindow.setFramerateLimit(30);
     Game::gameWindow.setVerticalSyncEnabled(true);
     Game::gameWindow.setKeyRepeatEnabled(false);
-    m_gameObjectManager.addObject(std::make_shared<Monster>(100, 100));
+    std::vector<std::vector<int>> map = {
+            {0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
+            {0, 1, 1, 1, 1, 1, 1, 1, 1, 0},
+            {0, 1, 1, 1, 1, 1, 1, 1, 1, 0},
+            {0, 1, 1, 1, 1, 1, 1, 1, 1, 0},
+            {0, 1, 1, 1, 1, 1, 1, 1, 1, 0},
+            {0, 1, 1, 1, 1, 1, 1, 1, 1, 0},
+            {0, 1, 1, 1, 1, 1, 1, 1, 1, 0},
+            {0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
+    };
+    Game::tileMap = TileMap(100, map);
 }
 
 void Game::execute() {
@@ -34,5 +44,6 @@ void Game::update() {
 void Game::render() {
     Game::gameWindow.clear(sf::Color::White);
     Game::gameWindow.display();
+    Game::tileMap.render();
     m_gameObjectManager.render();
 }

@@ -6,6 +6,8 @@ CMakeFiles/SFML_GAME_ENGINE.dir/main.cpp.o: \
  ../headers/Game.hpp \
  ../headers/GameObject.hpp \
  ../headers/GameObjectManager.hpp \
+ ../headers/Tile.h \
+ ../headers/TileMap.h \
  ../main.cpp \
  /opt/homebrew/include/SFML/Config.hpp \
  /opt/homebrew/include/SFML/Graphics.hpp \
@@ -164,6 +166,8 @@ CMakeFiles/SFML_GAME_ENGINE.dir/sources/Game.cpp.o: \
  ../headers/GameObject.hpp \
  ../headers/GameObjectManager.hpp \
  ../headers/Monster.hpp \
+ ../headers/Tile.h \
+ ../headers/TileMap.h \
  ../sources/Game.cpp \
  /opt/homebrew/include/SFML/Config.hpp \
  /opt/homebrew/include/SFML/Graphics.hpp \
@@ -244,6 +248,8 @@ CMakeFiles/SFML_GAME_ENGINE.dir/sources/GameObject.cpp.o: \
  ../headers/Game.hpp \
  ../headers/GameObject.hpp \
  ../headers/GameObjectManager.hpp \
+ ../headers/Tile.h \
+ ../headers/TileMap.h \
  ../sources/GameObject.cpp \
  /opt/homebrew/include/SFML/Config.hpp \
  /opt/homebrew/include/SFML/Graphics.hpp \
@@ -479,7 +485,11 @@ CMakeFiles/SFML_GAME_ENGINE.dir/sources/Monster.cpp.o: \
  /opt/homebrew/include/SFML/Window/WindowStyle.hpp
 CMakeFiles/SFML_GAME_ENGINE.dir/sources/Tile.cpp.o: \
  ../headers/BetterSprite.hpp \
+ ../headers/Game.hpp \
+ ../headers/GameObject.hpp \
+ ../headers/GameObjectManager.hpp \
  ../headers/Tile.h \
+ ../headers/TileMap.h \
  ../sources/Tile.cpp \
  /opt/homebrew/include/SFML/Config.hpp \
  /opt/homebrew/include/SFML/Graphics.hpp \

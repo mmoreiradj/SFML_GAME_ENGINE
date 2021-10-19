@@ -16,8 +16,7 @@ private:
 public:
     TileMap() = default;
 
-    TileMap(const unsigned &tileSize, const std::vector<std::vector<int>> &tileMap,
-            const std::shared_ptr<sf::RenderWindow> &gameWindow);
+    TileMap(const unsigned &tileSize, const std::vector<std::vector<int>> &tileMap);
 
     void render() const;
 };

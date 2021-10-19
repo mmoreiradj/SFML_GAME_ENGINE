@@ -12,11 +12,9 @@ protected:
     BetterSprite m_sprite;
     std::shared_ptr<sf::RenderWindow> m_gameWindow;
 public:
-    Tile(const float &posX, const float &posY, const sf::Texture &texture,
-         std::shared_ptr<sf::RenderWindow> gameWindow);
+    Tile(const float &posX, const float &posY, const sf::Texture &texture);
 
-    Tile(const float &posX, const float &posY, const unsigned &size, const sf::Color &color,
-         std::shared_ptr<sf::RenderWindow> gameWindow);
+    Tile(const float &posX, const float &posY, const unsigned &size, const sf::Color &color);
 
     void render() const;
 };

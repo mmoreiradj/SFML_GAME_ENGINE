@@ -17,6 +17,8 @@ memory
 -
 GameObjectManager.hpp
 ../headers/GameObjectManager.hpp
+TileMap.h
+../headers/TileMap.h
 
 ../headers/GameObject.hpp
 vector
@@ -50,10 +52,6 @@ Tile.h
 Game.hpp
 /Users/martinmoreiradj/Documents/GitHub/SFML_GAME_ENGINE/Game.hpp
 
-/Users/martinmoreiradj/Documents/GitHub/SFML_GAME_ENGINE/sources/BetterSprite.cpp
-BetterSprite.hpp
-/Users/martinmoreiradj/Documents/GitHub/SFML_GAME_ENGINE/sources/BetterSprite.hpp
-
 /Users/martinmoreiradj/Documents/GitHub/SFML_GAME_ENGINE/sources/Game.cpp
 memory
 -
@@ -70,19 +68,11 @@ Game.hpp
 GameObject.hpp
 /Users/martinmoreiradj/Documents/GitHub/SFML_GAME_ENGINE/sources/GameObject.hpp
 
-/Users/martinmoreiradj/Documents/GitHub/SFML_GAME_ENGINE/sources/GameObjectManager.cpp
-GameObjectManager.hpp
-/Users/martinmoreiradj/Documents/GitHub/SFML_GAME_ENGINE/sources/GameObjectManager.hpp
-
-/Users/martinmoreiradj/Documents/GitHub/SFML_GAME_ENGINE/sources/Monster.cpp
-memory
--
-Monster.hpp
-/Users/martinmoreiradj/Documents/GitHub/SFML_GAME_ENGINE/sources/Monster.hpp
-
 /Users/martinmoreiradj/Documents/GitHub/SFML_GAME_ENGINE/sources/Tile.cpp
 Tile.h
 /Users/martinmoreiradj/Documents/GitHub/SFML_GAME_ENGINE/sources/Tile.h
+Game.hpp
+/Users/martinmoreiradj/Documents/GitHub/SFML_GAME_ENGINE/sources/Game.hpp
 utility
 -
 
