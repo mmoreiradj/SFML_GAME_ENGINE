@@ -1,0 +1,3 @@
+/Users/martinmoreiradj/Documents/GitHub/SFML_GAME_ENGINE/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/martinmoreiradj/Documents/GitHub/SFML_GAME_ENGINE/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/martinmoreiradj/Documents/GitHub/SFML_GAME_ENGINE/cmake-build-debug/CMakeFiles/SFML_GAME_ENGINE.dir

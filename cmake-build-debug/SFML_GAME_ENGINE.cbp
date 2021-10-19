@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="SFML_GAME_ENGINE"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\..\;CMake Files\..\..\..\..\..\opt\;CMake Files\..\..\..\..\..\opt\homebrew\;CMake Files\..\..\..\..\..\opt\homebrew\lib\;CMake Files\..\..\..\..\..\opt\homebrew\lib\cmake\;CMake Files\..\..\..\..\..\opt\homebrew\lib\cmake\SFML\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/martinmoreiradj/Documents/GitHub/SFML_GAME_ENGINE/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/martinmoreiradj/Documents/GitHub/SFML_GAME_ENGINE/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/martinmoreiradj/Documents/GitHub/SFML_GAME_ENGINE/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/martinmoreiradj/Documents/GitHub/SFML_GAME_ENGINE/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/martinmoreiradj/Documents/GitHub/SFML_GAME_ENGINE/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/martinmoreiradj/Documents/GitHub/SFML_GAME_ENGINE/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/martinmoreiradj/Documents/GitHub/SFML_GAME_ENGINE/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/martinmoreiradj/Documents/GitHub/SFML_GAME_ENGINE/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/martinmoreiradj/Documents/GitHub/SFML_GAME_ENGINE/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/martinmoreiradj/Documents/GitHub/SFML_GAME_ENGINE/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/martinmoreiradj/Documents/GitHub/SFML_GAME_ENGINE/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/martinmoreiradj/Documents/GitHub/SFML_GAME_ENGINE/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/martinmoreiradj/Documents/GitHub/SFML_GAME_ENGINE/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/martinmoreiradj/Documents/GitHub/SFML_GAME_ENGINE/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/martinmoreiradj/Documents/GitHub/SFML_GAME_ENGINE/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="SFML_GAME_ENGINE">
+				<Option output="/Users/martinmoreiradj/Documents/GitHub/SFML_GAME_ENGINE/cmake-build-debug/SFML_GAME_ENGINE" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/martinmoreiradj/Documents/GitHub/SFML_GAME_ENGINE/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/martinmoreiradj/Documents/GitHub/SFML_GAME_ENGINE/SFML_GAME_ENGINE"/>
+					<Add directory="/Users/martinmoreiradj/Documents/GitHub/SFML_GAME_ENGINE/headers"/>
+					<Add directory="/Users/martinmoreiradj/Documents/GitHub/SFML_GAME_ENGINE/sources"/>
+					<Add directory="/opt/homebrew/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/martinmoreiradj/Documents/GitHub/SFML_GAME_ENGINE/cmake-build-debug/Makefile&quot;  VERBOSE=1 SFML_GAME_ENGINE"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/martinmoreiradj/Documents/GitHub/SFML_GAME_ENGINE/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/martinmoreiradj/Documents/GitHub/SFML_GAME_ENGINE/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/martinmoreiradj/Documents/GitHub/SFML_GAME_ENGINE/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="SFML_GAME_ENGINE/fast">
+				<Option output="/Users/martinmoreiradj/Documents/GitHub/SFML_GAME_ENGINE/cmake-build-debug/SFML_GAME_ENGINE" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/martinmoreiradj/Documents/GitHub/SFML_GAME_ENGINE/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/martinmoreiradj/Documents/GitHub/SFML_GAME_ENGINE/SFML_GAME_ENGINE"/>
+					<Add directory="/Users/martinmoreiradj/Documents/GitHub/SFML_GAME_ENGINE/headers"/>
+					<Add directory="/Users/martinmoreiradj/Documents/GitHub/SFML_GAME_ENGINE/sources"/>
+					<Add directory="/opt/homebrew/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/martinmoreiradj/Documents/GitHub/SFML_GAME_ENGINE/cmake-build-debug/Makefile&quot;  VERBOSE=1 SFML_GAME_ENGINE/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/martinmoreiradj/Documents/GitHub/SFML_GAME_ENGINE/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/martinmoreiradj/Documents/GitHub/SFML_GAME_ENGINE/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/martinmoreiradj/Documents/GitHub/SFML_GAME_ENGINE/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/martinmoreiradj/Documents/GitHub/SFML_GAME_ENGINE/headers/BetterSprite.hpp">
+			<Option target="SFML_GAME_ENGINE"/>
+		</Unit>
+		<Unit filename="/Users/martinmoreiradj/Documents/GitHub/SFML_GAME_ENGINE/headers/Game.hpp">
+			<Option target="SFML_GAME_ENGINE"/>
+		</Unit>
+		<Unit filename="/Users/martinmoreiradj/Documents/GitHub/SFML_GAME_ENGINE/headers/GameObject.hpp">
+			<Option target="SFML_GAME_ENGINE"/>
+		</Unit>
+		<Unit filename="/Users/martinmoreiradj/Documents/GitHub/SFML_GAME_ENGINE/headers/GameObjectManager.hpp">
+			<Option target="SFML_GAME_ENGINE"/>
+		</Unit>
+		<Unit filename="/Users/martinmoreiradj/Documents/GitHub/SFML_GAME_ENGINE/headers/Monster.hpp">
+			<Option target="SFML_GAME_ENGINE"/>
+		</Unit>
+		<Unit filename="/Users/martinmoreiradj/Documents/GitHub/SFML_GAME_ENGINE/headers/Tile.h">
+			<Option target="SFML_GAME_ENGINE"/>
+		</Unit>
+		<Unit filename="/Users/martinmoreiradj/Documents/GitHub/SFML_GAME_ENGINE/headers/TileMap.h">
+			<Option target="SFML_GAME_ENGINE"/>
+		</Unit>
+		<Unit filename="/Users/martinmoreiradj/Documents/GitHub/SFML_GAME_ENGINE/main.cpp">
+			<Option target="SFML_GAME_ENGINE"/>
+		</Unit>
+		<Unit filename="/Users/martinmoreiradj/Documents/GitHub/SFML_GAME_ENGINE/sources/BetterSprite.cpp">
+			<Option target="SFML_GAME_ENGINE"/>
+		</Unit>
+		<Unit filename="/Users/martinmoreiradj/Documents/GitHub/SFML_GAME_ENGINE/sources/Game.cpp">
+			<Option target="SFML_GAME_ENGINE"/>
+		</Unit>
+		<Unit filename="/Users/martinmoreiradj/Documents/GitHub/SFML_GAME_ENGINE/sources/GameObject.cpp">
+			<Option target="SFML_GAME_ENGINE"/>
+		</Unit>
+		<Unit filename="/Users/martinmoreiradj/Documents/GitHub/SFML_GAME_ENGINE/sources/GameObjectManager.cpp">
+			<Option target="SFML_GAME_ENGINE"/>
+		</Unit>
+		<Unit filename="/Users/martinmoreiradj/Documents/GitHub/SFML_GAME_ENGINE/sources/Monster.cpp">
+			<Option target="SFML_GAME_ENGINE"/>
+		</Unit>
+		<Unit filename="/Users/martinmoreiradj/Documents/GitHub/SFML_GAME_ENGINE/sources/Tile.cpp">
+			<Option target="SFML_GAME_ENGINE"/>
+		</Unit>
+		<Unit filename="/Users/martinmoreiradj/Documents/GitHub/SFML_GAME_ENGINE/sources/TileMap.cpp">
+			<Option target="SFML_GAME_ENGINE"/>
+		</Unit>
+		<Unit filename="/Users/martinmoreiradj/Documents/GitHub/SFML_GAME_ENGINE/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/martinmoreiradj/Documents/GitHub/SFML_GAME_ENGINE/../../../../../opt/homebrew/lib/cmake/SFML/SFMLConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\homebrew\lib\cmake\SFML\"/>
+		</Unit>
+		<Unit filename="/Users/martinmoreiradj/Documents/GitHub/SFML_GAME_ENGINE/../../../../../opt/homebrew/lib/cmake/SFML/SFMLConfigDependencies.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\homebrew\lib\cmake\SFML\"/>
+		</Unit>
+		<Unit filename="/Users/martinmoreiradj/Documents/GitHub/SFML_GAME_ENGINE/../../../../../opt/homebrew/lib/cmake/SFML/SFMLConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\homebrew\lib\cmake\SFML\"/>
+		</Unit>
+		<Unit filename="/Users/martinmoreiradj/Documents/GitHub/SFML_GAME_ENGINE/../../../../../opt/homebrew/lib/cmake/SFML/SFMLSharedTargets-release.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\homebrew\lib\cmake\SFML\"/>
+		</Unit>
+		<Unit filename="/Users/martinmoreiradj/Documents/GitHub/SFML_GAME_ENGINE/../../../../../opt/homebrew/lib/cmake/SFML/SFMLSharedTargets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\homebrew\lib\cmake\SFML\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
