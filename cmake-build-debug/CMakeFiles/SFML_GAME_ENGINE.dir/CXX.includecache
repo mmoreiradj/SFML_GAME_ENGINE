@@ -10,6 +10,32 @@
 SFML/Graphics.hpp
 ../headers/SFML/Graphics.hpp
 
+../headers/Game.hpp
+SFML/Graphics.hpp
+-
+memory
+-
+TileMap.hpp
+../headers/TileMap.hpp
+GameObjectManager.hpp
+../headers/GameObjectManager.hpp
+
+../headers/GameObject.hpp
+vector
+-
+memory
+-
+BetterSprite.hpp
+../headers/BetterSprite.hpp
+
+../headers/GameObjectManager.hpp
+memory
+-
+vector
+-
+GameObject.hpp
+../headers/GameObject.hpp
+
 ../headers/Tile.hpp
 memory
 -
@@ -24,11 +50,17 @@ string
 Tile.hpp
 ../headers/Tile.hpp
 
-C:/Users/Pierre/CLionProjects/SFML_GAME_ENGINE/sources/TileMap.cpp
-fstream
+../utils/utils.hpp
+vector
 -
+string
+-
+
+C:/Users/Pierre/CLionProjects/SFML_GAME_ENGINE/main.cpp
 iostream
 -
-TileMap.hpp
-C:/Users/Pierre/CLionProjects/SFML_GAME_ENGINE/sources/TileMap.hpp
+Game.hpp
+C:/Users/Pierre/CLionProjects/SFML_GAME_ENGINE/Game.hpp
+utils.hpp
+C:/Users/Pierre/CLionProjects/SFML_GAME_ENGINE/utils.hpp
 

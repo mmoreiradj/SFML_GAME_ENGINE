@@ -27,6 +27,7 @@
 					<Add directory="C:/Users/Pierre/CLionProjects/SFML_GAME_ENGINE/SFML_GAME_ENGINE"/>
 					<Add directory="C:/Users/Pierre/CLionProjects/SFML_GAME_ENGINE/headers"/>
 					<Add directory="C:/Users/Pierre/CLionProjects/SFML_GAME_ENGINE/sources"/>
+					<Add directory="C:/Users/Pierre/CLionProjects/SFML_GAME_ENGINE/utils"/>
 					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../include/c++/10.3.0"/>
 					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../include/c++/10.3.0/x86_64-w64-mingw32"/>
 					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../include/c++/10.3.0/backward"/>
@@ -52,6 +53,7 @@
 					<Add directory="C:/Users/Pierre/CLionProjects/SFML_GAME_ENGINE/SFML_GAME_ENGINE"/>
 					<Add directory="C:/Users/Pierre/CLionProjects/SFML_GAME_ENGINE/headers"/>
 					<Add directory="C:/Users/Pierre/CLionProjects/SFML_GAME_ENGINE/sources"/>
+					<Add directory="C:/Users/Pierre/CLionProjects/SFML_GAME_ENGINE/utils"/>
 					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../include/c++/10.3.0"/>
 					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../include/c++/10.3.0/x86_64-w64-mingw32"/>
 					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../include/c++/10.3.0/backward"/>
@@ -125,6 +127,9 @@
 			<Option target="SFML_GAME_ENGINE"/>
 		</Unit>
 		<Unit filename="C:/Users/Pierre/CLionProjects/SFML_GAME_ENGINE/sources/TileMap.cpp">
+			<Option target="SFML_GAME_ENGINE"/>
+		</Unit>
+		<Unit filename="C:/Users/Pierre/CLionProjects/SFML_GAME_ENGINE/utils/utils.hpp">
 			<Option target="SFML_GAME_ENGINE"/>
 		</Unit>
 		<Unit filename="C:/Users/Pierre/CLionProjects/SFML_GAME_ENGINE/CMakeLists.txt">

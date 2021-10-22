@@ -8,6 +8,7 @@ CMakeFiles/SFML_GAME_ENGINE.dir/main.cpp.obj: \
  ../headers/GameObjectManager.hpp \
  ../headers/Tile.hpp \
  ../headers/TileMap.hpp \
+ ../utils/utils.hpp \
  ../main.cpp
 CMakeFiles/SFML_GAME_ENGINE.dir/sources/BetterSprite.cpp.obj: \
  ../headers/BetterSprite.hpp \

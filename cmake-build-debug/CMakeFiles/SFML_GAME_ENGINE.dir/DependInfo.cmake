@@ -23,6 +23,7 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "../SFML_GAME_ENGINE"
   "../headers"
   "../sources"
+  "../utils"
   )
 
 # The set of dependency files which are needed:

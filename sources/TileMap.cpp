@@ -12,9 +12,12 @@ TileMap::TileMap(const unsigned &tileSize, const std::string &filename,
     std::vector<std::vector<int>> map(1);
     if (ifs) {
         int i = 0;
-        while (!ifs.eof()) {
+        while (true) {
             char c = ifs.get();
-            if (c == ' ') {
+            if (c == '\xff') {
+                break;
+            }
+            else if (c == ' ') {
                 continue;
             }
             else if (c == '\n') {
@@ -29,7 +32,7 @@ TileMap::TileMap(const unsigned &tileSize, const std::string &filename,
         std::cerr << "ERROR !\n";
     }
 
-
+    m_tileMap.resize(map.size());
     for (unsigned i = 0; i < map.size(); ++i) {
         for (unsigned j = 0; j < map[i].size(); ++j) {
             switch (map[i][j]) {
