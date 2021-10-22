@@ -1,5 +1,5 @@
-"/Users/martinmoreiradj/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/212.5284.51/CLion.app/Contents/bin/cmake/mac/bin/cmake" -DCMAKE_BUILD_TYPE=Debug -DCMAKE_DEPENDS_USE_COMPILER=FALSE -G "CodeBlocks - Unix Makefiles" /Users/martinmoreiradj/Documents/GitHub/SFML_GAME_ENGINE
--- Found SFML 2.5.1 in /opt/homebrew/lib/cmake/SFML
+"C:\Program Files\JetBrains\CLion 2021.2.3\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -DCMAKE_DEPENDS_USE_COMPILER=FALSE -G "CodeBlocks - MinGW Makefiles" C:\Users\Pierre\CLionProjects\SFML_GAME_ENGINE
+-- Found SFML 2.5.1 in C:/msys64/mingw64/lib/cmake/SFML
 -- Configuring done
 -- Generating done
--- Build files have been written to: /Users/martinmoreiradj/Documents/GitHub/SFML_GAME_ENGINE/cmake-build-debug
+-- Build files have been written to: C:/Users/Pierre/CLionProjects/SFML_GAME_ENGINE/cmake-build-debug

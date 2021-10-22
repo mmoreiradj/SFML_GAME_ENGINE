@@ -5,6 +5,7 @@
 #ifndef SFML_GAME_ENGINE_TILE_H
 #define SFML_GAME_ENGINE_TILE_H
 
+#include <memory>
 #include "BetterSprite.hpp"
 
 class Tile {

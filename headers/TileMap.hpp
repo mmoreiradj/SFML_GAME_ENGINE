@@ -6,7 +6,9 @@
 #define SFML_GAME_ENGINE_TILEMAP_H
 
 #include <vector>
-#include <Tile.hpp>
+#include <string>
+
+#include "Tile.hpp"
 
 class TileMap {
 private:
@@ -17,7 +19,7 @@ private:
 public:
     TileMap() = default;
 
-    TileMap(const unsigned &tileSize, const std::vector<std::vector<int>> &tileMap, const std::shared_ptr<sf::RenderWindow> &);
+    TileMap(const unsigned &tileSize, const std::string, const std::shared_ptr<sf::RenderWindow> &);
 
     void render() const;
 };

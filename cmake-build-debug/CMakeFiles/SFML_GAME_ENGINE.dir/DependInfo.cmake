@@ -8,22 +8,21 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/martinmoreiradj/Documents/GitHub/SFML_GAME_ENGINE/main.cpp" "/Users/martinmoreiradj/Documents/GitHub/SFML_GAME_ENGINE/cmake-build-debug/CMakeFiles/SFML_GAME_ENGINE.dir/main.cpp.o"
-  "/Users/martinmoreiradj/Documents/GitHub/SFML_GAME_ENGINE/sources/BetterSprite.cpp" "/Users/martinmoreiradj/Documents/GitHub/SFML_GAME_ENGINE/cmake-build-debug/CMakeFiles/SFML_GAME_ENGINE.dir/sources/BetterSprite.cpp.o"
-  "/Users/martinmoreiradj/Documents/GitHub/SFML_GAME_ENGINE/sources/Game.cpp" "/Users/martinmoreiradj/Documents/GitHub/SFML_GAME_ENGINE/cmake-build-debug/CMakeFiles/SFML_GAME_ENGINE.dir/sources/Game.cpp.o"
-  "/Users/martinmoreiradj/Documents/GitHub/SFML_GAME_ENGINE/sources/GameObject.cpp" "/Users/martinmoreiradj/Documents/GitHub/SFML_GAME_ENGINE/cmake-build-debug/CMakeFiles/SFML_GAME_ENGINE.dir/sources/GameObject.cpp.o"
-  "/Users/martinmoreiradj/Documents/GitHub/SFML_GAME_ENGINE/sources/GameObjectManager.cpp" "/Users/martinmoreiradj/Documents/GitHub/SFML_GAME_ENGINE/cmake-build-debug/CMakeFiles/SFML_GAME_ENGINE.dir/sources/GameObjectManager.cpp.o"
-  "/Users/martinmoreiradj/Documents/GitHub/SFML_GAME_ENGINE/sources/Tile.cpp" "/Users/martinmoreiradj/Documents/GitHub/SFML_GAME_ENGINE/cmake-build-debug/CMakeFiles/SFML_GAME_ENGINE.dir/sources/Tile.cpp.o"
-  "/Users/martinmoreiradj/Documents/GitHub/SFML_GAME_ENGINE/sources/TileMap.cpp" "/Users/martinmoreiradj/Documents/GitHub/SFML_GAME_ENGINE/cmake-build-debug/CMakeFiles/SFML_GAME_ENGINE.dir/sources/TileMap.cpp.o"
+  "C:/Users/Pierre/CLionProjects/SFML_GAME_ENGINE/main.cpp" "C:/Users/Pierre/CLionProjects/SFML_GAME_ENGINE/cmake-build-debug/CMakeFiles/SFML_GAME_ENGINE.dir/main.cpp.obj"
+  "C:/Users/Pierre/CLionProjects/SFML_GAME_ENGINE/sources/BetterSprite.cpp" "C:/Users/Pierre/CLionProjects/SFML_GAME_ENGINE/cmake-build-debug/CMakeFiles/SFML_GAME_ENGINE.dir/sources/BetterSprite.cpp.obj"
+  "C:/Users/Pierre/CLionProjects/SFML_GAME_ENGINE/sources/Game.cpp" "C:/Users/Pierre/CLionProjects/SFML_GAME_ENGINE/cmake-build-debug/CMakeFiles/SFML_GAME_ENGINE.dir/sources/Game.cpp.obj"
+  "C:/Users/Pierre/CLionProjects/SFML_GAME_ENGINE/sources/GameObject.cpp" "C:/Users/Pierre/CLionProjects/SFML_GAME_ENGINE/cmake-build-debug/CMakeFiles/SFML_GAME_ENGINE.dir/sources/GameObject.cpp.obj"
+  "C:/Users/Pierre/CLionProjects/SFML_GAME_ENGINE/sources/GameObjectManager.cpp" "C:/Users/Pierre/CLionProjects/SFML_GAME_ENGINE/cmake-build-debug/CMakeFiles/SFML_GAME_ENGINE.dir/sources/GameObjectManager.cpp.obj"
+  "C:/Users/Pierre/CLionProjects/SFML_GAME_ENGINE/sources/Tile.cpp" "C:/Users/Pierre/CLionProjects/SFML_GAME_ENGINE/cmake-build-debug/CMakeFiles/SFML_GAME_ENGINE.dir/sources/Tile.cpp.obj"
+  "C:/Users/Pierre/CLionProjects/SFML_GAME_ENGINE/sources/TileMap.cpp" "C:/Users/Pierre/CLionProjects/SFML_GAME_ENGINE/cmake-build-debug/CMakeFiles/SFML_GAME_ENGINE.dir/sources/TileMap.cpp.obj"
   )
-set(CMAKE_CXX_COMPILER_ID "AppleClang")
+set(CMAKE_CXX_COMPILER_ID "GNU")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "../SFML_GAME_ENGINE"
   "../headers"
   "../sources"
-  "/opt/homebrew/include"
   )
 
 # The set of dependency files which are needed:
