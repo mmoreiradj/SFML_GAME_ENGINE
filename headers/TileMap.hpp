@@ -18,9 +18,7 @@ private:
     unsigned m_tileSize{};
 public:
     TileMap() = default;
-
-    TileMap(const unsigned &tileSize, const std::string, const std::shared_ptr<sf::RenderWindow> &);
-
+    TileMap(const unsigned &, const std::string &, const std::shared_ptr<sf::RenderWindow> &);
     void render() const;
 };
 

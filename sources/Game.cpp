@@ -8,21 +8,7 @@ Game::Game(int width, int height, const std::string &name) {
     m_gameWindow = std::make_shared<sf::RenderWindow>(sf::VideoMode(width, height), name);
     m_gameWindow->setFramerateLimit(30);
     m_gameWindow->setKeyRepeatEnabled(false);
-
-
-
-/*    std::vector<std::vector<int>> map = {
-            {0, 0, 0, 0, 0, 0, 0, 0},
-            {0, 1, 1, 1, 1, 1, 1, 0},
-            {0, 1, 1, 1, 1, 1, 1, 0},
-            {0, 1, 1, 1, 1, 1, 1, 0},
-            {0, 1, 1, 1, 1, 1, 1, 0},
-            {0, 1, 1, 1, 1, 1, 1, 0},
-            {0, 1, 1, 1, 1, 1, 1, 0},
-            {0, 0, 0, 0, 0, 0, 0, 0},
-    };*/
-
-    m_tileMap = TileMap(100, map, m_gameWindow);
+    m_tileMap = TileMap(100, "../assets/TileMap_Test.txt", m_gameWindow);
 }
 
 void Game::execute() {

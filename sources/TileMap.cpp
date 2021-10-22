@@ -2,20 +2,43 @@
 // Created by Martin Moreira de Jesus on 17/10/2021.
 //
 
+#include <fstream>
+#include <iostream>
 #include "TileMap.hpp"
 
-TileMap::TileMap(const unsigned &tileSize, const std::vector<std::vector<int>> &tileMap,
+TileMap::TileMap(const unsigned &tileSize, const std::string &filename,
                  const std::shared_ptr<sf::RenderWindow> &gameWindow) : m_tileSize(tileSize) {
-    m_tileMap.resize(tileMap.size());
-    for (unsigned i = 0; i < tileMap.size(); ++i) {
-        for (unsigned j = 0; j < tileMap[i].size(); ++j) {
-            switch (tileMap[i][j]) {
+    std::ifstream ifs(filename);
+    std::vector<std::vector<int>> map(1);
+    if (ifs) {
+        int i = 0;
+        while (!ifs.eof()) {
+            char c = ifs.get();
+            if (c == ' ') {
+                continue;
+            }
+            else if (c == '\n') {
+                map.resize(map.size() + 1);
+                ++i;
+                continue;
+            }
+            map[i].push_back(int(c - '0'));
+        }
+    }
+    else {
+        std::cerr << "ERROR !\n";
+    }
+
+
+    for (unsigned i = 0; i < map.size(); ++i) {
+        for (unsigned j = 0; j < map[i].size(); ++j) {
+            switch (map[i][j]) {
                 case 0:
-                    m_tileMap[i].push_back(Tile(m_tileSize * i, m_tileSize * j,
+                    m_tileMap[i].push_back(Tile(float(m_tileSize * i), float(m_tileSize * j),
                                                 tileSize, sf::Color::Red, gameWindow));
                     break;
                 case 1:
-                    m_tileMap[i].push_back(Tile(m_tileSize * i, m_tileSize * j,
+                    m_tileMap[i].push_back(Tile(float(m_tileSize * i), float(m_tileSize * j),
                                                 tileSize, sf::Color::Black, gameWindow));
                     break;
             }
